@@ -1,0 +1,358 @@
+{
+	"version": "",
+	"name": "tradebc-regions",
+	"createdBy": "ndegreef",
+	"createdDate": "2020-07-23T04:04:22.903Z",
+	"viewer": {
+		"type": "leaflet",
+		"location": {
+			"extent": [
+				-140.80078125000003,
+				61.62728646147466,
+				-108.72070312500001,
+				46.13417004624326
+			],
+			"center": [
+				-124.76074218750003,
+				51.88072825385896
+			],
+			"zoom": 6
+		},
+		"baseMap": "Topographic",
+		"device": "auto"
+	},
+	"tools": [{
+			"type": "toolbar",
+			"enabled": false
+		},
+		{
+			"type": "list-menu",
+			"enabled": false,
+			"title": "TradeBC Regions"
+		},
+		{
+			"type": "pan",
+			"enabled": true
+		},
+		{
+			"type": "zoom",
+			"enabled": true
+		},
+		{
+			"type": "about",
+			"enabled": false,
+			"title": "About TradeBC Regions",
+			"position": "list-menu",
+			"content": "<p>Welcome to SMK!</p><p>My Simple Map Kit application.</p>"
+		},
+		{
+			"type": "layers",
+			"enabled": false,
+			"display": [{
+					"id": "3990",
+					"type": "layer",
+					"title": "Ministry of Jobs,  Trade and Technology - Economic Development Regions",
+					"isVisible": true
+				},
+				{
+					"id": "3991",
+					"type": "layer",
+					"title": "Ministry of Jobs,  Trade and Technology - Economic Development Regions Outlined",
+					"isVisible": true
+				},
+				{
+					"id": "points",
+					"type": "layer",
+					"title": "BC Communities",
+					"isVisible": true
+				}
+			]
+		},
+		{
+			"type": "baseMaps",
+			"enabled": false
+		},
+		{
+			"type": "identify",
+			"enabled": false,
+			"showPanel": true,
+			"showWidget": false,
+			"style": {
+				"strokeWidth": 1,
+				"strokeStyle": "1, 1",
+				"strokeColor": "#000000",
+				"strokeOpacity": 0.8,
+				"fillColor": "#000000",
+				"fillOpacity": 0.5,
+				"markerSize": [
+					20,
+					20
+				],
+				"markerOffset": [
+					10,
+					0
+				]
+			}
+		},
+		{
+			"type": "search",
+			"enabled": false
+		},
+		{
+			"type": "coordinate",
+			"enabled": false
+		},
+		{
+			"type": "measure",
+			"enabled": false
+		},
+		{
+			"type": "markup",
+			"enabled": false
+		},
+		{
+			"type": "scale",
+			"enabled": false
+		},
+		{
+			"type": "minimap",
+			"enabled": false
+		},
+		{
+			"type": "directions",
+			"enabled": false
+		},
+		{
+			"type": "location",
+			"enabled": false
+		},
+		{
+			"type": "select",
+			"enabled": false
+		}
+	],
+	"layers": [{
+			"type": "esri-dynamic",
+			"id": "3990",
+			"title": "Ministry of Jobs,  Trade and Technology - Economic Development Regions",
+			"isVisible": true,
+			"attribution": "DataBC",
+			"opacity": 0.65,
+			"minScale": "35000000",
+			"maxScale": "0",
+			"isQueryable": true,
+			"titleAttribute": null,
+			"mpcmId": "3990",
+			"mpcmWorkspace": "MPCM_ALL_PUB",
+			"serviceUrl": "https://maps.gov.bc.ca/arcgis/rest/services/mpcm/bcgw/MapServer",
+			"dynamicLayers": [
+				"{\"id\":3990,\"minScale\":35000000,\"maxScale\":0,\"source\":{\"type\":\"dataLayer\",\"dataSource\":{\"type\":\"table\",\"workspaceId\":\"MPCM_ALL_PUB\",\"dataSourceName\":\"WHSE_HUMAN_CULTURAL_ECONOMIC.CEN_ECONOMIC_REGIONS_SVW\",\"gdbVersion\":\"\"}},\"drawingInfo\":{\"renderer\":{\"type\":\"simple\",\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[190,210,255,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[190,210,255,255],\"width\":0.4}},\"label\":\"\",\"description\":\"\"},\"transparency\":60,\"labelingInfo\":null}}"
+			],
+			"attributes": [{
+					"visible": "true",
+					"title": "Census Year",
+					"name": "CENSUS_YEAR",
+					"id": "1"
+				},
+				{
+					"visible": "true",
+					"title": "Economic Region ID",
+					"name": "ECONOMIC_REGION_ID",
+					"id": "2"
+				},
+				{
+					"visible": "true",
+					"title": "Economic Region Name",
+					"name": "ECONOMIC_REGION_NAME",
+					"id": "3"
+				},
+				{
+					"visible": "true",
+					"title": "GEOMETRY",
+					"name": "GEOMETRY",
+					"id": "4"
+				},
+				{
+					"visible": "true",
+					"title": "OBJECTID",
+					"name": "OBJECTID",
+					"id": "5"
+				},
+				{
+					"visible": "false",
+					"title": "Geometry Area",
+					"name": "GEOMETRY.AREA",
+					"id": "6"
+				},
+				{
+					"visible": "false",
+					"title": "GEOMETRY.LEN",
+					"name": "GEOMETRY.LEN",
+					"id": "7"
+				},
+				{
+					"visible": "true",
+					"title": "FEATURE_AREA_SQM",
+					"name": "FEATURE_AREA_SQM",
+					"id": "8"
+				},
+				{
+					"visible": "true",
+					"title": "FEATURE_LENGTH_M",
+					"name": "FEATURE_LENGTH_M",
+					"id": "9"
+				},
+				{
+					"visible": "false",
+					"title": "SE_ANNO_CAD_DATA",
+					"name": "SE_ANNO_CAD_DATA",
+					"id": "10"
+				}
+			],
+			"queries": []
+		},
+		{
+			"type": "esri-dynamic",
+			"id": "3991",
+			"title": "Ministry of Jobs,  Trade and Technology - Economic Development Regions Outlined",
+			"isVisible": true,
+			"attribution": "DataBC",
+			"opacity": 0.65,
+			"minScale": "35000000",
+			"maxScale": "0",
+			"isQueryable": true,
+			"titleAttribute": null,
+			"mpcmId": "3991",
+			"mpcmWorkspace": "MPCM_ALL_PUB",
+			"serviceUrl": "https://maps.gov.bc.ca/arcgis/rest/services/mpcm/bcgw/MapServer",
+			"dynamicLayers": [
+				"{\"id\":3991,\"minScale\":35000000,\"maxScale\":0,\"source\":{\"type\":\"dataLayer\",\"dataSource\":{\"type\":\"table\",\"workspaceId\":\"MPCM_ALL_PUB\",\"dataSourceName\":\"WHSE_HUMAN_CULTURAL_ECONOMIC.CEN_ECONOMIC_REGIONS_SVW\",\"gdbVersion\":\"\"}},\"drawingInfo\":{\"renderer\":{\"type\":\"simple\",\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[0,0,0,0],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[0,38,115,255],\"width\":1.2}},\"label\":\"\",\"description\":\"\"},\"transparency\":20,\"labelingInfo\":null}}"
+			],
+			"attributes": [{
+					"visible": "true",
+					"title": "Census Year",
+					"name": "CENSUS_YEAR",
+					"id": "1"
+				},
+				{
+					"visible": "true",
+					"title": "Economic Region ID",
+					"name": "ECONOMIC_REGION_ID",
+					"id": "2"
+				},
+				{
+					"visible": "true",
+					"title": "Economic Region Name",
+					"name": "ECONOMIC_REGION_NAME",
+					"id": "3"
+				},
+				{
+					"visible": "true",
+					"title": "GEOMETRY",
+					"name": "GEOMETRY",
+					"id": "4"
+				},
+				{
+					"visible": "true",
+					"title": "OBJECTID",
+					"name": "OBJECTID",
+					"id": "5"
+				},
+				{
+					"visible": "false",
+					"title": "Geometry Area",
+					"name": "GEOMETRY.AREA",
+					"id": "6"
+				},
+				{
+					"visible": "false",
+					"title": "GEOMETRY.LEN",
+					"name": "GEOMETRY.LEN",
+					"id": "7"
+				},
+				{
+					"visible": "true",
+					"title": "FEATURE_AREA_SQM",
+					"name": "FEATURE_AREA_SQM",
+					"id": "8"
+				},
+				{
+					"visible": "true",
+					"title": "FEATURE_LENGTH_M",
+					"name": "FEATURE_LENGTH_M",
+					"id": "9"
+				},
+				{
+					"visible": "false",
+					"title": "SE_ANNO_CAD_DATA",
+					"name": "SE_ANNO_CAD_DATA",
+					"id": "10"
+				}
+			],
+			"queries": []
+		},
+		{
+			"type": "vector",
+			"id": "points",
+			"title": "BC Communities",
+			"isVisible": true,
+			"isQueryable": true,
+			"opacity": 0.65,
+			"attribution": "",
+			"minScale": 1,
+			"maxScale": 75000000,
+			"titleAttribute": null,
+			"metadataUrl": null,
+			"attributes": [{
+					"visible": "true",
+					"title": "Community",
+					"name": "PLACENAME",
+					"id": "1"
+				},
+				{
+					"visible": "true",
+					"title": "Population",
+					"name": "Population",
+					"id": "2"
+				}],
+			"popupTemplate":"<div>\n<div><h2>{{ feature.title }}</h2></div>\n<div>\n<table border=\"0\" width=\"100%\">\n\t<tbody>\n\t<tr>\n\t<td>{{ feature.properties['PLACENAME'] }}</td>\n\t</tr>\t\t\n\t<tr>\n\t<td>{{ feature.properties['POPULATION'] }}<</td></tr></table> </div>\n</div>",
+
+			"useRaw": true,
+			"useClustering": false,
+			"useHeatmap": false,
+			"isWfs": false,
+			"dataUrl": null,
+			"style": {
+				"strokeWidth": "1",
+				"strokeStyle": "1",
+				"strokeColor": "#ff0000",
+				"strokeOpacity": "1",
+				"fillColor": "#ff0000",
+				"fillOpacity": "0.65",
+				"markerSize": [
+					"22",
+					"32"
+				],
+				"markerOffset": [
+					"12",
+					"12"
+				],
+				"markerUrl": "http://www.clker.com/cliparts/Z/x/U/0/B/3/red-pin-md.png",
+				"attributes": [{
+						"id": "PLACENAME",
+						"name": "PLACENAME",
+						"title": "Community",
+						"visible": true
+					},
+					{
+						"id": "POPULATION",
+						"name": "POPULATION",
+						"title": "Population",
+						"visible": true
+					}
+				]
+			},
+			"queries": []
+		}
+	]
+}
