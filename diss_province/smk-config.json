@@ -144,7 +144,7 @@
 			"titleAttribute": null,
 			"mpcmId": "3990",
 			"mpcmWorkspace": "MPCM_ALL_PUB",
-			"serviceUrl": "https://maps.gov.bc.ca/arcgis/rest/services/mpcm/bcgw/MapServer",
+			"serviceUrl": "https://delivery.maps.gov.bc.ca/arcgis/rest/services/mpcm/bcgw/MapServer",
 			"dynamicLayers": [
 				"{\"id\":3990,\"minScale\":35000000,\"maxScale\":0,\"source\":{\"type\":\"dataLayer\",\"dataSource\":{\"type\":\"table\",\"workspaceId\":\"MPCM_ALL_PUB\",\"dataSourceName\":\"WHSE_HUMAN_CULTURAL_ECONOMIC.CEN_ECONOMIC_REGIONS_SVW\",\"gdbVersion\":\"\"}},\"drawingInfo\":{\"renderer\":{\"type\":\"simple\",\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[190,210,255,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[190,210,255,255],\"width\":0.4}},\"label\":\"\",\"description\":\"\"},\"transparency\":60,\"labelingInfo\":null}}"
 			],
@@ -224,7 +224,7 @@
 			"titleAttribute": null,
 			"mpcmId": "3991",
 			"mpcmWorkspace": "MPCM_ALL_PUB",
-			"serviceUrl": "https://maps.gov.bc.ca/arcgis/rest/services/mpcm/bcgw/MapServer",
+			"serviceUrl": "https://delivery.maps.gov.bc.ca/arcgis/rest/services/mpcm/bcgw/MapServer",
 			"dynamicLayers": [
 				"{\"id\":3991,\"minScale\":35000000,\"maxScale\":0,\"source\":{\"type\":\"dataLayer\",\"dataSource\":{\"type\":\"table\",\"workspaceId\":\"MPCM_ALL_PUB\",\"dataSourceName\":\"WHSE_HUMAN_CULTURAL_ECONOMIC.CEN_ECONOMIC_REGIONS_SVW\",\"gdbVersion\":\"\"}},\"drawingInfo\":{\"renderer\":{\"type\":\"simple\",\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[0,0,0,0],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[0,38,115,255],\"width\":1.2}},\"label\":\"\",\"description\":\"\"},\"transparency\":20,\"labelingInfo\":null}}"
 			],
